@@ -1,0 +1,7 @@
+Fault_Type,Priority,Action,Inspection,Estimated_Cost_USD,Estimated_Downtime_hr,Remaining_Useful_Life_Days
+none,None,No maintenance required. Continue monitoring.,Routine monthly inspection.,0,0,180
+bearing_wear,High,Replace motor bearings.,Inspect bearing lubrication and shaft alignment.,450,4,20
+imbalance,Medium,Perform rotor balancing.,Inspect rotor and coupling alignment.,300,2,35
+overload,High,Reduce operating load and inspect drive system.,Check mechanical load and current draw.,250,2,15
+phase_loss,Critical,Inspect electrical phases immediately.,"Check wiring, relays and power supply.",600,6,5
+insulation_failure,Critical,Replace insulation or rewind motor.,Perform insulation resistance test.,900,8,3

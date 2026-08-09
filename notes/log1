@@ -1,0 +1,17 @@
+# First Meeting – Key Discussion Points
+
+## 1. Project Brainstorming
+
+* Discussed potential project ideas and refined the overall project scope.
+* Explored different methods for data acquisition, including possible approaches for collecting and extracting sensor data.
+* Considered different data storage and representation methods, including:
+
+  * CSV files for offline analysis.
+  * Cloud-based storage for real-time data collection and monitoring.
+
+## 2. Supervisor Suggestions
+
+* Extend the project beyond a simple **Healthy vs. Faulty** classification by developing a more advanced predictive maintenance model capable of identifying multiple equipment health conditions or fault categories.
+* Include a **cost analysis** component to evaluate the economic impact of predictive maintenance, such as reduced downtime, maintenance costs, and potential savings.
+* Focus the project on a **specific industry** (e.g., manufacturing, oil & gas, energy, or transportation) to make the solution more practical and applicable to real-world scenarios.
+

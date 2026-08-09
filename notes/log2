@@ -1,0 +1,25 @@
+# Second Meeting – Key Discussion Points
+
+## 1. Exploratory Data Analysis (EDA)
+
+* Reviewed the dataset to assess its overall quality and suitability for predictive maintenance modelling.
+* Conducted Exploratory Data Analysis (EDA) to examine:
+  * Missing values and duplicate records.
+  * Class distribution of health labels, health states, and fault types.
+  * Feature distributions using histograms and Kernel Density Estimation (KDE) plots.
+  * Outlier detection using boxplots.
+  * Correlation between sensor features.
+  * Skewness and overall statistical characteristics of the data.
+
+## 2. Supervisor Suggestions
+
+* Ensure the generated sensor data are as realistic as possible and representative of **real industrial machine data**.
+* Validate that sensor readings (temperature, vibration, current, voltage, speed, etc.) fall within realistic operating ranges.
+* Compare the synthetic dataset with publicly available predictive maintenance datasets or industrial benchmarks to improve data reliability.
+* Clearly justify any assumptions made during the data generation process within the dissertation.
+
+## 3. Next Steps
+
+* Complete the EDA and document the key findings.
+* Refine the simulated sensor data to better reflect real-world operating conditions.
+* Proceed with developing the first machine learning model for **binary health classification (Healthy vs. Faulty)** before extending the solution to multi-class health state and fault type classification.
