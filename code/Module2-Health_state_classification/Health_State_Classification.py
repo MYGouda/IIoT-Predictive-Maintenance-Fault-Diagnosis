@@ -81,8 +81,8 @@ Scores= cross_val_score(estimator=rf_model, X=X, y=y, cv= k_folds, scoring='accu
 for i, score in enumerate(Scores,1):
     print(f"Fold {i}: {score:.4f}")
 
-print(f"Mean Accuracy : {score.mean():.4f}")
-print(f"Std Accuracy  : {score.std():.4f}")
+print(f"Mean Accuracy : {Scores.mean():.4f}")
+print(f"Std Accuracy  : {Scores.std():.4f}")
 
 
 #Evaluating

@@ -98,8 +98,6 @@ if actual_health is not None:
     plt.show()
 
 
-
-
 #Display Predictions
 
 print("\nPrediction Results\n")

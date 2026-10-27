@@ -10,8 +10,7 @@ import joblib
 
 #Load Dataset
 #C:\MyWorkingDir\Workingpython\Msc Project\Data\sensor_plant_simulator.py
-df = pd.read_csv(
-    r"C:\MyWorkingDir\Workingpython\Msc Project\Data\sensor_data.csv")
+df = pd.read_csv(r"c:\MyWorkingDir\Workingpython\Msc Project\Data\sensor_data.csv")
 
 #EDA
 print(df.info())
